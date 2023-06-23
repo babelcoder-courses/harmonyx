@@ -1,5 +1,3 @@
-import * as React from "react";
-
-// component exports
-export * from "./Button";
-export * from "./Header";
+export * from "./src/form";
+export { default as Button } from "./src/Button";
+export { default as Loading } from "./src/Loading";

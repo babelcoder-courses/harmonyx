@@ -9,17 +9,27 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@hookform/resolvers": "^3.1.1",
+    "immer": "^10.0.2",
     "next": "^13.4.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "ui": "workspace:*"
+    "react-hook-form": "^7.45.0",
+    "swr": "^2.1.5",
+    "tailwind-merge": "^1.13.2",
+    "ui": "workspace:*",
+    "zod": "^3.21.4",
+    "zustand": "^4.3.8"
   },
   "devDependencies": {
     "@types/node": "^17.0.12",
-    "@types/react": "^18.0.22",
-    "@types/react-dom": "^18.0.7",
+    "@types/react": "^18.2.8",
+    "@types/react-dom": "^18.2.6",
+    "autoprefixer": "^10.4.14",
     "eslint-config-custom": "workspace:*",
+    "postcss": "^8.4.24",
+    "tailwindcss": "^3.3.2",
     "tsconfig": "workspace:*",
-    "typescript": "^4.5.3"
+    "typescript": "^5.1.3"
   }
 }
